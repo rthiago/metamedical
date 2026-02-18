@@ -9,11 +9,11 @@ Requirements for initial release. Each maps to roadmap phases.
 
 ### Structure
 
-- [ ] **STRC-01**: Site has 5 pages: Home, Empresa, Produtos, Localização, Contato
-- [ ] **STRC-02**: Responsive navigation bar with logo and page links
-- [ ] **STRC-03**: Mobile hamburger menu that collapses/expands navigation
-- [ ] **STRC-04**: Footer on all pages with CNPJ (21.033.671/000129), address (Av. Dos Autonomistas, 896 - Osasco/SP), and RE 8365-SP
-- [ ] **STRC-05**: Consistent header and footer across all pages
+- [x] **STRC-01**: Site has 5 pages: Home, Empresa, Produtos, Localização, Contato
+- [x] **STRC-02**: Responsive navigation bar with logo and page links
+- [x] **STRC-03**: Mobile hamburger menu that collapses/expands navigation
+- [x] **STRC-04**: Footer on all pages with CNPJ (21.033.671/000129), address (Av. Dos Autonomistas, 896 - Osasco/SP), and RE 8365-SP
+- [x] **STRC-05**: Consistent header and footer across all pages
 
 ### Home Page
 
@@ -46,11 +46,11 @@ Requirements for initial release. Each maps to roadmap phases.
 
 ### Design & UX
 
-- [ ] **DSGN-01**: Corporate medical aesthetic — professional, clean, trustworthy color scheme
-- [ ] **DSGN-02**: Fully responsive layout (desktop, tablet, mobile)
-- [ ] **DSGN-03**: Modern typography using Google Fonts
+- [x] **DSGN-01**: Corporate medical aesthetic — professional, clean, trustworthy color scheme
+- [x] **DSGN-02**: Fully responsive layout (desktop, tablet, mobile)
+- [x] **DSGN-03**: Modern typography using Google Fonts
 - [ ] **DSGN-04**: Subtle CSS animations (hover effects, transitions, scroll reveals)
-- [ ] **DSGN-05**: Plain HTML and CSS only — no JavaScript frameworks or build tools
+- [x] **DSGN-05**: Plain HTML and CSS only — no JavaScript frameworks or build tools
 
 ### SEO & Meta
 
@@ -82,15 +82,15 @@ Requirements for initial release. Each maps to roadmap phases.
 
 | Requirement | Phase | Status |
 |-------------|-------|--------|
-| STRC-01 | Phase 1 | Pending |
-| STRC-02 | Phase 1 | Pending |
-| STRC-03 | Phase 1 | Pending |
-| STRC-04 | Phase 1 | Pending |
-| STRC-05 | Phase 1 | Pending |
-| DSGN-01 | Phase 1 | Pending |
-| DSGN-02 | Phase 1 | Pending |
-| DSGN-03 | Phase 1 | Pending |
-| DSGN-05 | Phase 1 | Pending |
+| STRC-01 | Phase 1 | Complete |
+| STRC-02 | Phase 1 | Complete |
+| STRC-03 | Phase 1 | Complete |
+| STRC-04 | Phase 1 | Complete |
+| STRC-05 | Phase 1 | Complete |
+| DSGN-01 | Phase 1 | Complete |
+| DSGN-02 | Phase 1 | Complete |
+| DSGN-03 | Phase 1 | Complete |
+| DSGN-05 | Phase 1 | Complete |
 | HOME-01 | Phase 2 | Pending |
 | HOME-02 | Phase 2 | Pending |
 | HOME-03 | Phase 2 | Pending |
