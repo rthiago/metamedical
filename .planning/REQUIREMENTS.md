@@ -17,14 +17,14 @@ Requirements for initial release. Each maps to roadmap phases.
 
 ### Home Page
 
-- [ ] **HOME-01**: Hero section with company name, tagline "Compromisso com a saúde", and call-to-action
-- [ ] **HOME-02**: Company values section displaying 4 pillars (Compromisso, Soluções, Resultados, Tire suas dúvidas)
-- [ ] **HOME-03**: Featured products preview section linking to Produtos page
+- [x] **HOME-01**: Hero section with company name, tagline "Compromisso com a saúde", and call-to-action
+- [x] **HOME-02**: Company values section displaying 4 pillars (Compromisso, Soluções, Resultados, Tire suas dúvidas)
+- [x] **HOME-03**: Featured products preview section linking to Produtos page
 
 ### Company Page
 
-- [ ] **EMPR-01**: Empresa page with institutional content about MetaMedical
-- [ ] **EMPR-02**: Company values displayed with descriptions
+- [x] **EMPR-01**: Empresa page with institutional content about MetaMedical
+- [x] **EMPR-02**: Company values displayed with descriptions
 
 ### Products Page
 
@@ -91,11 +91,11 @@ Requirements for initial release. Each maps to roadmap phases.
 | DSGN-02 | Phase 1 | Complete |
 | DSGN-03 | Phase 1 | Complete |
 | DSGN-05 | Phase 1 | Complete |
-| HOME-01 | Phase 2 | Pending |
-| HOME-02 | Phase 2 | Pending |
-| HOME-03 | Phase 2 | Pending |
-| EMPR-01 | Phase 2 | Pending |
-| EMPR-02 | Phase 2 | Pending |
+| HOME-01 | Phase 2 | Complete |
+| HOME-02 | Phase 2 | Complete |
+| HOME-03 | Phase 2 | Complete |
+| EMPR-01 | Phase 2 | Complete |
+| EMPR-02 | Phase 2 | Complete |
 | PROD-01 | Phase 2 | Pending |
 | PROD-02 | Phase 2 | Pending |
 | PROD-03 | Phase 2 | Pending |
