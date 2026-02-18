@@ -12,8 +12,8 @@ Three phases to deliver a modern institutional website for MetaMedical. Phase 1 
 
 Decimal phases appear between their surrounding integers in numeric order.
 
-- [ ] **Phase 1: Foundation** - Site shell, design system, shared header/nav/footer
-- [ ] **Phase 2: Content Pages** - All five pages filled with MetaMedical content
+- [x] **Phase 1: Foundation** - Site shell, design system, shared header/nav/footer
+- [x] **Phase 2: Content Pages** - All five pages filled with MetaMedical content
 - [ ] **Phase 3: Polish & Deploy** - SEO tags, animations, final deploy readiness
 
 ## Phase Details
@@ -31,7 +31,7 @@ Decimal phases appear between their surrounding integers in numeric order.
 **Plans**: 1 plan
 
 Plans:
-- [ ] 01-01-PLAN.md — Build site shell with CSS design system, shared header/nav/footer, and 5 HTML page stubs
+- [x] 01-01-PLAN.md — Build site shell with CSS design system, shared header/nav/footer, and 5 HTML page stubs
 
 ### Phase 2: Content Pages
 **Goal**: Every page displays complete MetaMedical content so visitors can learn about the company, products, location, and contact
@@ -46,8 +46,8 @@ Plans:
 **Plans**: 2 plans
 
 Plans:
-- [ ] 02-01-PLAN.md — Build Home and Empresa pages with hero, values, product preview, and institutional content
-- [ ] 02-02-PLAN.md — Build Produtos, Localização, and Contato pages with product cards, map, and contact info
+- [x] 02-01-PLAN.md — Build Home and Empresa pages with hero, values, product preview, and institutional content
+- [x] 02-02-PLAN.md — Build Produtos, Localização, and Contato pages with product cards, map, and contact info
 
 ### Phase 3: Polish & Deploy
 **Goal**: The site is search-engine ready with smooth interactions and can be uploaded to shared hosting as-is
@@ -70,6 +70,6 @@ Phases execute in numeric order: 1 → 2 → 3
 
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
-| 1. Foundation | 0/1 | Not started | - |
-| 2. Content Pages | 0/2 | Not started | - |
+| 1. Foundation | 1/1 | Complete | 2026-02-18 |
+| 2. Content Pages | 2/2 | Complete | 2026-02-18 |
 | 3. Polish & Deploy | 0/1 | Not started | - |
