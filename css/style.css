@@ -318,7 +318,7 @@ nav ul li a[aria-current="page"] {
   border-radius: var(--radius);
   border: none;
   cursor: pointer;
-  transition: background-color var(--transition), box-shadow var(--transition);
+  transition: background-color var(--transition), box-shadow var(--transition), transform var(--transition);
   text-decoration: none;
 }
 
@@ -326,6 +326,7 @@ nav ul li a[aria-current="page"] {
   background-color: var(--color-primary-dark);
   color: var(--color-white);
   box-shadow: 0 2px 8px rgba(0, 86, 179, 0.3);
+  transform: scale(1.02);
 }
 
 .btn--small {
@@ -347,6 +348,12 @@ nav ul li a[aria-current="page"] {
 .value-card {
   text-align: center;
   padding: var(--space-lg);
+  transition: transform var(--transition), box-shadow var(--transition);
+}
+
+.value-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.12);
 }
 
 .value-card .icon {
@@ -374,6 +381,12 @@ nav ul li a[aria-current="page"] {
 .product-card {
   padding: 0;
   overflow: hidden;
+  transition: transform var(--transition), box-shadow var(--transition);
+}
+
+.product-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
 }
 
 .product-card img {
@@ -414,6 +427,12 @@ nav ul li a[aria-current="page"] {
   margin-bottom: var(--space-xs);
   background: var(--color-white);
   border-radius: 0 var(--radius) var(--radius) 0;
+  transition: background-color var(--transition), border-color var(--transition);
+}
+
+.empresa-value-item:hover {
+  background-color: var(--color-primary-light);
+  border-left-color: var(--color-primary-dark);
 }
 
 .empresa-value-item h3 {
@@ -623,11 +642,12 @@ footer {
   border-radius: var(--radius);
   box-shadow: var(--shadow-card);
   overflow: hidden;
-  transition: box-shadow var(--transition);
+  transition: transform var(--transition), box-shadow var(--transition);
 }
 
 .product-detail:hover {
-  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
+  transform: translateY(-4px);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
 }
 
 .product-detail img {
@@ -700,6 +720,12 @@ footer {
 
 .contact-card {
   text-align: center;
+  transition: transform var(--transition), box-shadow var(--transition);
+}
+
+.contact-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.12);
 }
 
 .contact-card .icon {
