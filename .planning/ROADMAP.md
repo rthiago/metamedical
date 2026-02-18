@@ -28,10 +28,10 @@ Decimal phases appear between their surrounding integers in numeric order.
   3. Every page shows the same footer with CNPJ, address, and RE 8365-SP
   4. The site uses a professional medical color scheme with Google Fonts typography
   5. The codebase is plain HTML and CSS files with no build step required
-**Plans**: TBD
+**Plans**: 1 plan
 
 Plans:
-- [ ] 01-01: Build site shell with design system, shared header/nav/footer, and 5 page stubs
+- [ ] 01-01-PLAN.md — Build site shell with CSS design system, shared header/nav/footer, and 5 HTML page stubs
 
 ### Phase 2: Content Pages
 **Goal**: Every page displays complete MetaMedical content so visitors can learn about the company, products, location, and contact
