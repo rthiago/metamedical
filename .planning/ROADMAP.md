@@ -43,11 +43,11 @@ Plans:
   3. Produtos page shows cards for Bleed STP, Pinça Bipolar, and Bleed STP+ each with image and description, plus a catalog request prompt
   4. Localização page shows the full address and an embedded map of Osasco/SP
   5. Contato page clearly displays phone, email, and address with no form
-**Plans**: TBD
+**Plans**: 2 plans
 
 Plans:
-- [ ] 02-01: Build Home and Empresa pages with full content
-- [ ] 02-02: Build Produtos, Localização, and Contato pages with full content
+- [ ] 02-01-PLAN.md — Build Home and Empresa pages with hero, values, product preview, and institutional content
+- [ ] 02-02-PLAN.md — Build Produtos, Localização, and Contato pages with product cards, map, and contact info
 
 ### Phase 3: Polish & Deploy
 **Goal**: The site is search-engine ready with smooth interactions and can be uploaded to shared hosting as-is
