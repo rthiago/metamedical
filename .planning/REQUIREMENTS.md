@@ -82,39 +82,39 @@ Requirements for initial release. Each maps to roadmap phases.
 
 | Requirement | Phase | Status |
 |-------------|-------|--------|
-| STRC-01 | — | Pending |
-| STRC-02 | — | Pending |
-| STRC-03 | — | Pending |
-| STRC-04 | — | Pending |
-| STRC-05 | — | Pending |
-| HOME-01 | — | Pending |
-| HOME-02 | — | Pending |
-| HOME-03 | — | Pending |
-| EMPR-01 | — | Pending |
-| EMPR-02 | — | Pending |
-| PROD-01 | — | Pending |
-| PROD-02 | — | Pending |
-| PROD-03 | — | Pending |
-| PROD-04 | — | Pending |
-| PROD-05 | — | Pending |
-| LOCL-01 | — | Pending |
-| LOCL-02 | — | Pending |
-| CONT-01 | — | Pending |
-| CONT-02 | — | Pending |
-| DSGN-01 | — | Pending |
-| DSGN-02 | — | Pending |
-| DSGN-03 | — | Pending |
-| DSGN-04 | — | Pending |
-| DSGN-05 | — | Pending |
-| SEO-01 | — | Pending |
-| SEO-02 | — | Pending |
-| SEO-03 | — | Pending |
+| STRC-01 | Phase 1 | Pending |
+| STRC-02 | Phase 1 | Pending |
+| STRC-03 | Phase 1 | Pending |
+| STRC-04 | Phase 1 | Pending |
+| STRC-05 | Phase 1 | Pending |
+| DSGN-01 | Phase 1 | Pending |
+| DSGN-02 | Phase 1 | Pending |
+| DSGN-03 | Phase 1 | Pending |
+| DSGN-05 | Phase 1 | Pending |
+| HOME-01 | Phase 2 | Pending |
+| HOME-02 | Phase 2 | Pending |
+| HOME-03 | Phase 2 | Pending |
+| EMPR-01 | Phase 2 | Pending |
+| EMPR-02 | Phase 2 | Pending |
+| PROD-01 | Phase 2 | Pending |
+| PROD-02 | Phase 2 | Pending |
+| PROD-03 | Phase 2 | Pending |
+| PROD-04 | Phase 2 | Pending |
+| PROD-05 | Phase 2 | Pending |
+| LOCL-01 | Phase 2 | Pending |
+| LOCL-02 | Phase 2 | Pending |
+| CONT-01 | Phase 2 | Pending |
+| CONT-02 | Phase 2 | Pending |
+| DSGN-04 | Phase 3 | Pending |
+| SEO-01 | Phase 3 | Pending |
+| SEO-02 | Phase 3 | Pending |
+| SEO-03 | Phase 3 | Pending |
 
 **Coverage:**
 - v1 requirements: 27 total
-- Mapped to phases: 0
-- Unmapped: 27 ⚠️
+- Mapped to phases: 27
+- Unmapped: 0 ✓
 
 ---
 *Requirements defined: 2026-02-18*
-*Last updated: 2026-02-18 after initial definition*
+*Last updated: 2026-02-18 after roadmap creation*
