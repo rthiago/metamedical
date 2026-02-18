@@ -49,14 +49,14 @@ Requirements for initial release. Each maps to roadmap phases.
 - [x] **DSGN-01**: Corporate medical aesthetic — professional, clean, trustworthy color scheme
 - [x] **DSGN-02**: Fully responsive layout (desktop, tablet, mobile)
 - [x] **DSGN-03**: Modern typography using Google Fonts
-- [ ] **DSGN-04**: Subtle CSS animations (hover effects, transitions, scroll reveals)
+- [x] **DSGN-04**: Subtle CSS animations (hover effects, transitions, scroll reveals)
 - [x] **DSGN-05**: Plain HTML and CSS only — no JavaScript frameworks or build tools
 
 ### SEO & Meta
 
-- [ ] **SEO-01**: Proper meta tags (title, description) on all pages
-- [ ] **SEO-02**: Semantic HTML structure (header, nav, main, section, footer)
-- [ ] **SEO-03**: Open Graph tags for social sharing
+- [x] **SEO-01**: Proper meta tags (title, description) on all pages
+- [x] **SEO-02**: Semantic HTML structure (header, nav, main, section, footer)
+- [x] **SEO-03**: Open Graph tags for social sharing
 
 ## v2 Requirements
 
@@ -105,10 +105,10 @@ Requirements for initial release. Each maps to roadmap phases.
 | LOCL-02 | Phase 2 | Complete |
 | CONT-01 | Phase 2 | Complete |
 | CONT-02 | Phase 2 | Complete |
-| DSGN-04 | Phase 3 | Pending |
-| SEO-01 | Phase 3 | Pending |
-| SEO-02 | Phase 3 | Pending |
-| SEO-03 | Phase 3 | Pending |
+| DSGN-04 | Phase 3 | Complete |
+| SEO-01 | Phase 3 | Complete |
+| SEO-02 | Phase 3 | Complete |
+| SEO-03 | Phase 3 | Complete |
 
 **Coverage:**
 - v1 requirements: 27 total
