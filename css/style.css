@@ -261,11 +261,156 @@ nav ul li a[aria-current="page"] {
 }
 
 /* ==========================================================================
+   Hero Section
+   ========================================================================== */
+
+.hero {
+  position: relative;
+  min-height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: url('https://metamedical.com.br/pic/medical-slide-1.jpg') center/cover no-repeat;
+  overflow: hidden;
+}
+
+.hero::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.55);
+  z-index: 1;
+}
+
+.hero-content {
+  position: relative;
+  z-index: 2;
+  text-align: center;
+  color: var(--color-white);
+  padding: var(--space-2xl) var(--space-sm);
+}
+
+.hero h1 {
+  color: var(--color-white);
+  font-size: 3rem;
+  margin-bottom: var(--space-sm);
+}
+
+.hero .tagline {
+  color: var(--color-white);
+  font-size: 1.25rem;
+  margin-bottom: var(--space-lg);
+  opacity: 0.9;
+}
+
+/* ==========================================================================
+   Buttons
+   ========================================================================== */
+
+.btn {
+  display: inline-block;
+  padding: 0.75rem 1.75rem;
+  background-color: var(--color-primary);
+  color: var(--color-white);
+  font-family: var(--font-heading);
+  font-weight: 600;
+  font-size: 1rem;
+  border-radius: var(--radius);
+  border: none;
+  cursor: pointer;
+  transition: background-color var(--transition), box-shadow var(--transition);
+  text-decoration: none;
+}
+
+.btn:hover {
+  background-color: var(--color-primary-dark);
+  color: var(--color-white);
+  box-shadow: 0 2px 8px rgba(0, 86, 179, 0.3);
+}
+
+.btn--small {
+  padding: 0.5rem 1.25rem;
+  font-size: 0.9rem;
+}
+
+/* ==========================================================================
+   Values Grid
+   ========================================================================== */
+
+.values-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: var(--space-md);
+  margin-top: var(--space-lg);
+}
+
+.value-card {
+  text-align: center;
+  padding: var(--space-lg);
+}
+
+.value-card .icon {
+  display: block;
+  font-size: 2.5rem;
+  margin-bottom: var(--space-sm);
+  line-height: 1;
+}
+
+.value-card h3 {
+  color: var(--color-primary);
+}
+
+/* ==========================================================================
+   Products Preview
+   ========================================================================== */
+
+.products-preview {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: var(--space-md);
+  margin-top: var(--space-lg);
+}
+
+.product-card {
+  padding: 0;
+  overflow: hidden;
+}
+
+.product-card img {
+  width: 100%;
+  border-radius: var(--radius) var(--radius) 0 0;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+}
+
+.product-card-body {
+  padding: var(--space-md);
+  text-align: center;
+}
+
+.product-card-body h3 {
+  margin-bottom: var(--space-sm);
+}
+
+.section-cta {
+  text-align: center;
+  margin-top: var(--space-xl);
+}
+
+/* ==========================================================================
    Responsive — Mobile First
    ========================================================================== */
 
 /* Mobile: up to 767px */
 @media (max-width: 767px) {
+  .hero {
+    min-height: 50vh;
+  }
+
+  .hero h1 {
+    font-size: 2rem;
+  }
+
   .nav-toggle-label {
     display: flex;
   }
@@ -323,9 +468,26 @@ nav ul li a[aria-current="page"] {
   nav ul li a {
     font-size: 0.9rem;
   }
+
+  .values-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .products-preview {
+    grid-template-columns: repeat(3, 1fr);
+  }
 }
 
-/* Desktop: 1024px+ — base styles already handle this */
+/* Desktop: 1024px+ */
+@media (min-width: 1024px) {
+  .values-grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  .products-preview {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
 
 /* ==========================================================================
    Footer
