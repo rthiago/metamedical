@@ -58,10 +58,10 @@ Plans:
   2. HTML structure uses semantic elements (header, nav, main, section, footer) throughout
   3. Interactive elements (nav links, product cards, buttons) have visible hover/transition effects
   4. Uploading the files folder to a web host produces a working site with no configuration needed
-**Plans**: TBD
+**Plans**: 1 plan
 
 Plans:
-- [ ] 03-01: Add SEO meta/OG tags, CSS animations, and verify deploy readiness
+- [ ] 03-01-PLAN.md — Add SEO meta/OG tags, CSS hover/transition effects, and verify deploy readiness
 
 ## Progress
 
