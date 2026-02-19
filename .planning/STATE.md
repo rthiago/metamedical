@@ -51,9 +51,10 @@ None.
 | # | Description | Date | Commit | Directory |
 |---|-------------|------|--------|-----------|
 | 1 | Fix v1 tech debt: CNPJ formatting, duplicate Google Fonts import, value pillar label | 2026-02-19 | e007cb9 | [1-fix-v1-tech-debt](./quick/1-fix-v1-tech-debt-cnpj-formatting-duplica/) |
+| 2 | Replace text logo with brand image across all pages | 2026-02-19 | 717b6d3 | [2-replace-site-logo](./quick/2-replace-site-logo-with-new-version-from-/) |
 
 ## Session Continuity
 
 Last session: 2026-02-19
-Stopped at: Completed v1.0 milestone archival
+Stopped at: Completed quick task 2 - logo replacement
 Resume file: .planning/MILESTONES.md
