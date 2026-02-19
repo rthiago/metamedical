@@ -57,10 +57,13 @@
   --header-height: 72px;
 
   /* Effects */
-  --radius: 4px;
-  --shadow-card: 0 2px 8px rgba(0, 0, 0, 0.1);
+  --radius: 8px;
+  --shadow-card: 0 1px 2px rgba(0, 0, 0, 0.04), 0 4px 12px rgba(0, 0, 0, 0.06);
+  --shadow-card-hover: 0 2px 4px rgba(0, 0, 0, 0.04), 0 8px 24px rgba(0, 0, 0, 0.1), 0 16px 48px rgba(0, 0, 0, 0.04);
   --shadow-header: 0 1px 4px rgba(0, 0, 0, 0.08);
-  --transition: 0.3s ease;
+  --transition-duration: 0.25s;
+  --transition-easing: cubic-bezier(0.4, 0, 0.2, 1);
+  --transition: var(--transition-duration) var(--transition-easing);
 }
 
 /* ==========================================================================
@@ -131,6 +134,19 @@ h1 {
 h2 {
   font-size: var(--text-2xl);
   margin-bottom: var(--space-sm);
+  position: relative;
+  padding-top: 1.25rem;
+}
+
+h2::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 40px;
+  height: 3px;
+  background-color: var(--color-primary);
+  border-radius: 2px;
 }
 
 h3 {
@@ -363,7 +379,7 @@ nav ul li a[aria-current="page"] {
 
 .value-card:hover {
   transform: translateY(-2px);
-  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.12);
+  box-shadow: var(--shadow-card-hover);
 }
 
 .value-card .icon {
@@ -396,7 +412,7 @@ nav ul li a[aria-current="page"] {
 
 .product-card:hover {
   transform: translateY(-4px);
-  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+  box-shadow: var(--shadow-card-hover);
 }
 
 .product-card img {
@@ -622,7 +638,7 @@ footer {
 }
 
 .card:hover {
-  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
+  box-shadow: var(--shadow-card-hover);
 }
 
 /* ==========================================================================
@@ -646,7 +662,7 @@ footer {
 
 .product-detail:hover {
   transform: translateY(-4px);
-  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+  box-shadow: var(--shadow-card-hover);
 }
 
 .product-detail img {
@@ -661,6 +677,11 @@ footer {
 
 .product-detail h2 {
   color: var(--color-primary);
+  padding-top: 0;
+}
+
+.product-detail h2::before {
+  display: none;
 }
 
 .product-subtitle {
@@ -724,7 +745,7 @@ footer {
 
 .contact-card:hover {
   transform: translateY(-2px);
-  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.12);
+  box-shadow: var(--shadow-card-hover);
 }
 
 .contact-card .icon {
