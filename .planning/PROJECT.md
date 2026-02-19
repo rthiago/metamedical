@@ -29,12 +29,12 @@ Visitors immediately understand what MetaMedical does and can find product infor
 **Goal:** Comprehensive visual refresh — premium feel with image overlays, product grids, bold typography, scroll animations, and refined spacing.
 
 **Target features:**
+- ~~Bolder display typography and stronger hierarchy~~ ✓ Phase 4
+- ~~Generous whitespace and clearer section rhythm~~ ✓ Phase 4
+- ~~Smoother hover effects and transitions~~ ✓ Phase 4
 - Hero sections with image overlays (text + CTA over large photos)
-- Product grid redesign (clean image+text pairs)
-- Bolder display typography and stronger hierarchy
-- Generous whitespace and clearer section rhythm
 - Scroll reveal animations (vanilla JS)
-- Smoother hover effects and transitions
+- Product grid redesign (clean image+text pairs)
 
 ### Out of Scope
 
@@ -74,6 +74,10 @@ Visitors immediately understand what MetaMedical does and can find product infor
 | Product images from metamedical.com.br CDN | Reuse existing assets | ✓ Good — no image hosting needed |
 | Google Maps embed via query URL | No API key required | ✓ Good — zero-config |
 | Vanilla JS allowed for v1.1 | Enables scroll reveals and smooth animations | — Pending |
+| CSS clamp() for fluid typography | Browser-native, zero-dependency responsive sizing | ✓ Good — smooth scaling |
+| Layered box-shadows for card depth | Multi-layer shadows create realistic elevation | ✓ Good — premium feel |
+| H2 accent bars via ::before | No HTML changes needed, pure CSS presentation | ✓ Good — visual rhythm |
+| cubic-bezier(0.4,0,0.2,1) for transitions | Material standard curve, snappier than ease | ✓ Good — responsive feel |
 
 ---
-*Last updated: 2026-02-18 after v1.1 milestone start*
+*Last updated: 2026-02-18 after Phase 4 completion*
