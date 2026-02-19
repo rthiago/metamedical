@@ -54,7 +54,8 @@
   1. A GitHub Actions workflow file exists that triggers deployment on push to main
   2. Pushing a commit to main automatically publishes the site without manual intervention
   3. The site is accessible via the GitHub Pages URL and renders correctly in a browser
-**Plans**: TBD
+**Plans**: 1 plan
+- [ ] 08-01-PLAN.md — Configure GitHub Pages deployment and verify site is live
 
 ## Progress
 
@@ -69,4 +70,4 @@
 | 5. Scroll Reveal & Hero Animations | v1.1 | 1/1 | Complete | 2026-02-18 |
 | 6. Image Overlay Sections | v1.1 | 1/1 | Complete | 2026-02-18 |
 | 7. Repository Setup | v1.2 | 1/1 | Complete | 2026-02-19 |
-| 8. GitHub Pages Deployment | v1.2 | 0/? | Not started | - |
+| 8. GitHub Pages Deployment | v1.2 | 0/1 | Planned | - |
