@@ -36,10 +36,11 @@
   3. Cards show rounded corners and subtle layered shadows that lift them off the page
   4. Every H2 heading displays a small colored accent bar above it
   5. All buttons, links, and cards animate on hover with the same speed and easing
-**Plans**: TBD
+**Plans**: 2 plans
 
 Plans:
-- [ ] 04-01: TBD
+- [ ] 04-01-PLAN.md — Fluid typography with clamp() and generous section spacing
+- [ ] 04-02-PLAN.md — Card refinement, H2 accent bars, and unified transitions
 
 ### Phase 5: Scroll Reveal & Hero Animations
 **Goal**: Content below the fold animates into view on scroll, the hero entrance feels alive, and all animations degrade gracefully
@@ -76,6 +77,6 @@ Plans:
 | 1. Foundation | v1.0 | 1/1 | Complete | 2026-02-18 |
 | 2. Content Pages | v1.0 | 2/2 | Complete | 2026-02-18 |
 | 3. Polish & Deploy | v1.0 | 1/1 | Complete | 2026-02-18 |
-| 4. Typography & Spacing Foundation | v1.1 | 0/? | Not started | - |
+| 4. Typography & Spacing Foundation | v1.1 | 0/2 | Planned | - |
 | 5. Scroll Reveal & Hero Animations | v1.1 | 0/? | Not started | - |
 | 6. Image Overlay Sections | v1.1 | 0/? | Not started | - |
