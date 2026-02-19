@@ -35,16 +35,16 @@ Which phases cover which requirements. Updated during roadmap creation.
 
 | Requirement | Phase | Status |
 |-------------|-------|--------|
-| DEPLOY-01 | — | Pending |
-| DEPLOY-02 | — | Pending |
-| DEPLOY-03 | — | Pending |
-| DEPLOY-04 | — | Pending |
+| DEPLOY-01 | Phase 7 | Pending |
+| DEPLOY-02 | Phase 7 | Pending |
+| DEPLOY-03 | Phase 8 | Pending |
+| DEPLOY-04 | Phase 8 | Pending |
 
 **Coverage:**
 - v1.2 requirements: 4 total
-- Mapped to phases: 0
-- Unmapped: 4 ⚠️
+- Mapped to phases: 4
+- Unmapped: 0
 
 ---
 *Requirements defined: 2026-02-19*
-*Last updated: 2026-02-19 after initial definition*
+*Last updated: 2026-02-19 after roadmap creation*
