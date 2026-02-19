@@ -24,7 +24,17 @@ Visitors immediately understand what MetaMedical does and can find product infor
 
 ### Active
 
-(None — next milestone not yet planned)
+#### Current Milestone: v1.1 Visual Polish
+
+**Goal:** Comprehensive visual refresh — premium feel with image overlays, product grids, bold typography, scroll animations, and refined spacing.
+
+**Target features:**
+- Hero sections with image overlays (text + CTA over large photos)
+- Product grid redesign (clean image+text pairs)
+- Bolder display typography and stronger hierarchy
+- Generous whitespace and clearer section rhythm
+- Scroll reveal animations (vanilla JS)
+- Smoother hover effects and transitions
 
 ### Out of Scope
 
@@ -46,7 +56,7 @@ Visitors immediately understand what MetaMedical does and can find product infor
 
 ## Constraints
 
-- **Tech stack**: Plain HTML and CSS only — no JavaScript frameworks, no build step
+- **Tech stack**: Plain HTML, CSS, and vanilla JavaScript — no frameworks, no build step
 - **Content**: Preserve existing information — this is a design refresh, not a content rewrite
 - **Language**: Brazilian Portuguese only
 - **Hosting**: Must work on simple shared hosting (static file upload)
@@ -63,6 +73,7 @@ Visitors immediately understand what MetaMedical does and can find product infor
 | Google Fonts via CDN | Simple, no self-hosting needed | ✓ Good |
 | Product images from metamedical.com.br CDN | Reuse existing assets | ✓ Good — no image hosting needed |
 | Google Maps embed via query URL | No API key required | ✓ Good — zero-config |
+| Vanilla JS allowed for v1.1 | Enables scroll reveals and smooth animations | — Pending |
 
 ---
-*Last updated: 2026-02-19 after v1.0 milestone*
+*Last updated: 2026-02-18 after v1.1 milestone start*
