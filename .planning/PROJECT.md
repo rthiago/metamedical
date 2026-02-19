@@ -2,7 +2,7 @@
 
 ## What This Is
 
-A modern institutional website for MetaMedical.com.br — company info, products (Bleed STP, Pinça Bipolar, Bleed STP+), location, and contact details — with a professional medical/corporate design, premium typography, scroll animations, and image overlays. Built with plain HTML, CSS, and vanilla JavaScript, deployable to any shared web host.
+A modern institutional website for MetaMedical.com.br — company info, products (Bleed STP, Pinça Bipolar, Bleed STP+), location, and contact details — with a professional medical/corporate design, premium typography, scroll animations, and image overlays. Built with plain HTML, CSS, and vanilla JavaScript, deployed to GitHub Pages with automated CI/CD.
 
 ## Core Value
 
@@ -32,12 +32,13 @@ Visitors immediately understand what MetaMedical does and can find product infor
 - ✓ Scroll reveal via IntersectionObserver — v1.1
 - ✓ prefers-reduced-motion accessibility support — v1.1
 - ✓ No-JS fallback (all content visible without JavaScript) — v1.1
+- ✓ GitHub repository with full project history — v1.2
+- ✓ Site deployed and accessible via GitHub Pages — v1.2
+- ✓ GitHub Actions workflow for automated deployment — v1.2
 
 ### Active
 
-- [x] Private GitHub repository with full project history — v1.2 Phase 7
-- [x] Site deployed and accessible via GitHub Pages — v1.2 Phase 8
-- [x] GitHub Actions workflow for automated deployment — v1.2 Phase 8
+(None — ship to validate)
 
 ### Out of Scope
 
@@ -69,7 +70,7 @@ Visitors immediately understand what MetaMedical does and can find product infor
 - **Tech stack**: Plain HTML, CSS, and vanilla JavaScript — no frameworks, no build step
 - **Content**: Preserve existing information — this is a design refresh, not a content rewrite
 - **Language**: Brazilian Portuguese only
-- **Hosting**: Must work on simple shared hosting (static file upload)
+- **Hosting**: Deployed to GitHub Pages with automated CI/CD
 
 ## Key Decisions
 
@@ -107,4 +108,4 @@ Visitors immediately understand what MetaMedical does and can find product infor
 **Live site:** https://rthiago.github.io/metamedical/
 
 ---
-*Last updated: 2026-02-19 after v1.2 milestone complete*
+*Last updated: 2026-02-19 after v1.2 milestone*

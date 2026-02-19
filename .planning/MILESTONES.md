@@ -35,3 +35,21 @@
 
 ---
 
+
+## v1.2 GitHub Pages Deployment (Shipped: 2026-02-19)
+
+**Phases completed:** 2 phases, 2 plans, 4 tasks
+**Lines of code:** 1,496 (HTML + CSS + JS)
+**Changes:** +815 / -38 lines across 16 files
+**Timeline:** 2026-02-19
+**Git range:** chore(07-01) → docs(phase-8)
+
+**Key accomplishments:**
+- Created GitHub repository with full 70-commit project history
+- Added .gitignore for static site (OS/editor file exclusions)
+- Created GitHub Actions workflow for automated deployment on push to master
+- Switched repository to public for GitHub Pages compatibility
+- Site deployed and live at https://rthiago.github.io/metamedical/
+
+---
+

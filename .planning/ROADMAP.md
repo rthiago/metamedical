@@ -26,40 +26,15 @@
 
 </details>
 
-### ✅ v1.2 GitHub Pages Deployment (SHIPPED 2026-02-19)
+<details>
+<summary>✅ v1.2 GitHub Pages Deployment (Phases 7-8) — SHIPPED 2026-02-19</summary>
 
-**Milestone Goal:** Make the site publicly accessible via GitHub Pages with automated deployment.
+- [x] Phase 7: Repository Setup (1/1 plan) — completed 2026-02-19
+- [x] Phase 8: GitHub Pages Deployment (1/1 plan) — completed 2026-02-19
 
-- [x] **Phase 7: Repository Setup** - Push codebase with full history to GitHub — completed 2026-02-19
-- [x] **Phase 8: GitHub Pages Deployment** - Configure automated deployment and verify site is live — completed 2026-02-19
-
-## Phase Details
-
-### Phase 7: Repository Setup
-**Goal**: Site source code lives in a GitHub repository with complete project history
-**Depends on**: Phase 6
-**Requirements**: DEPLOY-01, DEPLOY-02
-**Success Criteria** (what must be TRUE):
-  1. A private GitHub repository named "metamedical" exists under the user's account
-  2. The repository contains the full codebase (all HTML, CSS, JS, and assets)
-  3. Complete git commit history from v1.0 through v1.1 is preserved in the remote
-**Plans**: 1 plan
-- [x] 07-01-PLAN.md — Create GitHub repo and push codebase with full history
-
-### Phase 8: GitHub Pages Deployment
-**Goal**: Site is automatically deployed and publicly accessible via GitHub Pages
-**Depends on**: Phase 7
-**Requirements**: DEPLOY-03, DEPLOY-04
-**Success Criteria** (what must be TRUE):
-  1. A GitHub Actions workflow file exists that triggers deployment on push to main
-  2. Pushing a commit to main automatically publishes the site without manual intervention
-  3. The site is accessible via the GitHub Pages URL and renders correctly in a browser
-**Plans**: 1 plan
-- [x] 08-01-PLAN.md — Configure GitHub Pages deployment and verify site is live
+</details>
 
 ## Progress
-
-**Execution Order:** 7 → 8
 
 | Phase | Milestone | Plans Complete | Status | Completed |
 |-------|-----------|----------------|--------|-----------|

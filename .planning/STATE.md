@@ -5,14 +5,13 @@
 See: .planning/PROJECT.md (updated 2026-02-19)
 
 **Core value:** Visitors immediately understand what MetaMedical does and can find product information and contact details with zero friction.
-**Current focus:** v1.2 milestone complete
+**Current focus:** Planning next milestone
 
 ## Current Position
 
-Phase: 8 of 8 (GitHub Pages Deployment) - COMPLETE
-Plan: 1/1 complete
-Status: Milestone complete
-Last activity: 2026-02-19 — Phase 8 complete (GitHub Pages deployment)
+Phase: All milestones complete (v1.0 + v1.1 + v1.2)
+Status: Between milestones
+Last activity: 2026-02-19 — v1.2 milestone archived
 
 Progress: v1.0 (4 plans) + v1.1 (4 plans) + v1.2 (2 plans) = 10 plans shipped
 
@@ -41,7 +40,6 @@ Progress: v1.0 (4 plans) + v1.1 (4 plans) + v1.2 (2 plans) = 10 plans shipped
 ### Decisions
 
 Decisions are logged in PROJECT.md Key Decisions table.
-No new decisions yet for v1.2.
 
 ### Pending Todos
 
@@ -61,5 +59,5 @@ None.
 ## Session Continuity
 
 Last session: 2026-02-19
-Stopped at: Phase 8 complete, v1.2 milestone complete
+Stopped at: v1.2 milestone archived, between milestones
 Resume file: None
