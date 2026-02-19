@@ -34,6 +34,14 @@
   --font-body: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
   --font-heading: 'Montserrat', 'Inter', sans-serif;
 
+  /* Fluid type scale */
+  --text-base: clamp(1rem, 0.95rem + 0.25vw, 1.125rem);
+  --text-lg: clamp(1.125rem, 1rem + 0.5vw, 1.375rem);
+  --text-xl: clamp(1.25rem, 1.1rem + 0.75vw, 1.75rem);
+  --text-2xl: clamp(1.5rem, 1.2rem + 1.5vw, 2.25rem);
+  --text-3xl: clamp(1.875rem, 1.5rem + 1.875vw, 2.75rem);
+  --text-hero: clamp(2.25rem, 1.75rem + 2.5vw, 3.5rem);
+
   /* Spacing scale */
   --space-xs: 0.5rem;
   --space-sm: 1rem;
@@ -41,6 +49,8 @@
   --space-lg: 2rem;
   --space-xl: 3rem;
   --space-2xl: 4rem;
+  --space-3xl: 6rem;
+  --space-4xl: 8rem;
 
   /* Layout */
   --max-width: 1200px;
@@ -71,7 +81,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: var(--font-body);
-  font-size: 16px;
+  font-size: var(--text-base);
   line-height: 1.6;
   color: var(--color-text);
   background-color: var(--color-bg);
@@ -114,22 +124,22 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-  font-size: 2.5rem;
+  font-size: var(--text-3xl);
   margin-bottom: var(--space-md);
 }
 
 h2 {
-  font-size: 2rem;
+  font-size: var(--text-2xl);
   margin-bottom: var(--space-sm);
 }
 
 h3 {
-  font-size: 1.5rem;
+  font-size: var(--text-xl);
   margin-bottom: var(--space-xs);
 }
 
 p {
-  font-size: 1rem;
+  font-size: var(--text-base);
   margin-top: 0;
   margin-bottom: var(--space-sm);
 }
@@ -147,7 +157,7 @@ p {
 }
 
 .section {
-  padding: var(--space-2xl) 0;
+  padding: clamp(3rem, 2.5rem + 2.5vw, 6rem) 0;
 }
 
 .section--alt {
@@ -287,18 +297,18 @@ nav ul li a[aria-current="page"] {
   z-index: 2;
   text-align: center;
   color: var(--color-white);
-  padding: var(--space-2xl) var(--space-sm);
+  padding: var(--space-3xl) var(--space-sm);
 }
 
 .hero h1 {
   color: var(--color-white);
-  font-size: 3rem;
+  font-size: var(--text-hero);
   margin-bottom: var(--space-sm);
 }
 
 .hero .tagline {
   color: var(--color-white);
-  font-size: 1.25rem;
+  font-size: var(--text-lg);
   margin-bottom: var(--space-lg);
   opacity: 0.9;
 }
@@ -450,10 +460,6 @@ nav ul li a[aria-current="page"] {
     min-height: 50vh;
   }
 
-  .hero h1 {
-    font-size: 2rem;
-  }
-
   .nav-toggle-label {
     display: flex;
   }
@@ -493,13 +499,6 @@ nav ul li a[aria-current="page"] {
     border-bottom: none;
   }
 
-  h1 {
-    font-size: 2rem;
-  }
-
-  h2 {
-    font-size: 1.5rem;
-  }
 }
 
 /* Tablet: 768px to 1023px */
@@ -566,7 +565,7 @@ footer {
 
 .footer-section h3 {
   color: var(--color-white);
-  font-size: 1.1rem;
+  font-size: var(--text-base);
   margin-bottom: var(--space-sm);
 }
 
