@@ -296,7 +296,7 @@ nav ul li a[aria-current="page"] {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: url('https://metamedical.com.br/pic/medical-slide-1.jpg') center/cover no-repeat;
+  background: url('../img/medical-slide-1.jpg') center/cover no-repeat;
   overflow: hidden;
 }
 
