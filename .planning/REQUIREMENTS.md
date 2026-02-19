@@ -9,10 +9,10 @@ Requirements for visual polish milestone. Each maps to roadmap phases.
 
 ### Typography & Spacing
 
-- [ ] **TYPO-01**: All headings use fluid `clamp()` sizing that scales smoothly from mobile to desktop
-- [ ] **TYPO-02**: Section padding uses generous spacing (6rem+) for premium breathing room
-- [ ] **TYPO-03**: Cards use refined styling with 8px border-radius and layered box-shadows
-- [ ] **TYPO-04**: H2 headings display a small brand-color accent bar above them
+- [x] **TYPO-01**: All headings use fluid `clamp()` sizing that scales smoothly from mobile to desktop
+- [x] **TYPO-02**: Section padding uses generous spacing (6rem+) for premium breathing room
+- [x] **TYPO-03**: Cards use refined styling with 8px border-radius and layered box-shadows
+- [x] **TYPO-04**: H2 headings display a small brand-color accent bar above them
 
 ### Hero & Overlays
 
@@ -28,7 +28,7 @@ Requirements for visual polish milestone. Each maps to roadmap phases.
 
 ### Hover & Transitions
 
-- [ ] **HOVR-01**: All interactive elements use unified transition timing and easing
+- [x] **HOVR-01**: All interactive elements use unified transition timing and easing
 
 ## Future Requirements
 
@@ -52,11 +52,11 @@ Requirements for visual polish milestone. Each maps to roadmap phases.
 
 | Requirement | Phase | Status |
 |-------------|-------|--------|
-| TYPO-01 | Phase 4 | Pending |
-| TYPO-02 | Phase 4 | Pending |
-| TYPO-03 | Phase 4 | Pending |
-| TYPO-04 | Phase 4 | Pending |
-| HOVR-01 | Phase 4 | Pending |
+| TYPO-01 | Phase 4 | Complete |
+| TYPO-02 | Phase 4 | Complete |
+| TYPO-03 | Phase 4 | Complete |
+| TYPO-04 | Phase 4 | Complete |
+| HOVR-01 | Phase 4 | Complete |
 | ANIM-01 | Phase 5 | Pending |
 | ANIM-02 | Phase 5 | Pending |
 | ANIM-03 | Phase 5 | Pending |
@@ -71,4 +71,4 @@ Requirements for visual polish milestone. Each maps to roadmap phases.
 
 ---
 *Requirements defined: 2026-02-18*
-*Last updated: 2026-02-18 after roadmap creation*
+*Last updated: 2026-02-18 after Phase 4 completion*
