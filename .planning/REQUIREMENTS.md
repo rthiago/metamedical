@@ -52,23 +52,23 @@ Requirements for visual polish milestone. Each maps to roadmap phases.
 
 | Requirement | Phase | Status |
 |-------------|-------|--------|
-| TYPO-01 | — | Pending |
-| TYPO-02 | — | Pending |
-| TYPO-03 | — | Pending |
-| TYPO-04 | — | Pending |
-| HERO-01 | — | Pending |
-| HERO-02 | — | Pending |
-| HERO-03 | — | Pending |
-| ANIM-01 | — | Pending |
-| ANIM-02 | — | Pending |
-| ANIM-03 | — | Pending |
-| HOVR-01 | — | Pending |
+| TYPO-01 | Phase 4 | Pending |
+| TYPO-02 | Phase 4 | Pending |
+| TYPO-03 | Phase 4 | Pending |
+| TYPO-04 | Phase 4 | Pending |
+| HOVR-01 | Phase 4 | Pending |
+| ANIM-01 | Phase 5 | Pending |
+| ANIM-02 | Phase 5 | Pending |
+| ANIM-03 | Phase 5 | Pending |
+| HERO-03 | Phase 5 | Pending |
+| HERO-01 | Phase 6 | Pending |
+| HERO-02 | Phase 6 | Pending |
 
 **Coverage:**
 - v1.1 requirements: 11 total
-- Mapped to phases: 0
-- Unmapped: 11 ⚠️
+- Mapped to phases: 11
+- Unmapped: 0
 
 ---
 *Requirements defined: 2026-02-18*
-*Last updated: 2026-02-18 after initial definition*
+*Last updated: 2026-02-18 after roadmap creation*

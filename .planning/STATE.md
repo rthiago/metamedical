@@ -5,19 +5,21 @@
 See: .planning/PROJECT.md (updated 2026-02-18)
 
 **Core value:** Visitors immediately understand what MetaMedical does and can find product information and contact details with zero friction.
-**Current focus:** Milestone v1.1 Visual Polish
+**Current focus:** Phase 4 - Typography & Spacing Foundation
 
 ## Current Position
 
-Phase: Not started (defining requirements)
-Plan: —
-Status: Defining requirements
-Last activity: 2026-02-18 — Milestone v1.1 started
+Phase: 4 of 6 (Typography & Spacing Foundation)
+Plan: 0 of ? in current phase
+Status: Ready to plan
+Last activity: 2026-02-18 — Roadmap created for v1.1 Visual Polish
+
+Progress: [████████████░░░░░░░░░] 57% (4/7 plans from v1.0, 0/? v1.1)
 
 ## Performance Metrics
 
 **Velocity:**
-- Total plans completed: 4
+- Total plans completed: 4 (v1.0)
 - Average duration: 2.5min
 - Total execution time: 10min
 
@@ -36,6 +38,11 @@ Last activity: 2026-02-18 — Milestone v1.1 started
 ### Decisions
 
 Decisions are logged in PROJECT.md Key Decisions table.
+Recent decisions affecting current work:
+
+- [v1.1 setup]: Vanilla JS allowed for scroll animations (IntersectionObserver)
+- [v1.1 setup]: No animation libraries -- native APIs only
+- [v1.1 setup]: CSS scroll-driven animations rejected (Firefox lacks support)
 
 ### Pending Todos
 
@@ -43,7 +50,8 @@ None.
 
 ### Blockers/Concerns
 
-None.
+- [Research]: Overlay opacity needs testing with actual product images from metamedical.com.br
+- [Research]: Verify Montserrat 800 weight renders well on low-DPI screens
 
 ### Quick Tasks Completed
 
@@ -55,5 +63,5 @@ None.
 ## Session Continuity
 
 Last session: 2026-02-18
-Stopped at: Starting milestone v1.1 Visual Polish
-Resume file: .planning/MILESTONES.md
+Stopped at: Roadmap created for v1.1 Visual Polish
+Resume file: None
