@@ -63,10 +63,10 @@ Plans:
 **Success Criteria** (what must be TRUE):
   1. Hero section displays a blue-to-dark gradient overlay instead of the previous flat dark overlay
   2. At least one additional section uses a full-width background image with text overlay, readable at all screen sizes
-**Plans**: TBD
+**Plans**: 1 plan
 
 Plans:
-- [ ] 06-01: TBD
+- [ ] 06-01-PLAN.md — Hero gradient upgrade, reusable overlay-section pattern, Produtos CTA overlay
 
 ## Progress
 
@@ -79,4 +79,4 @@ Plans:
 | 3. Polish & Deploy | v1.0 | 1/1 | Complete | 2026-02-18 |
 | 4. Typography & Spacing Foundation | v1.1 | 2/2 | Complete | 2026-02-18 |
 | 5. Scroll Reveal & Hero Animations | v1.1 | 1/1 | Complete | 2026-02-18 |
-| 6. Image Overlay Sections | v1.1 | 0/? | Not started | - |
+| 6. Image Overlay Sections | v1.1 | 0/1 | Planned | - |
