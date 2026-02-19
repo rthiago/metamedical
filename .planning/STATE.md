@@ -71,5 +71,5 @@ None yet.
 ## Session Continuity
 
 Last session: 2026-02-18
-Stopped at: Completed 03-01-PLAN.md
-Resume file: .planning/phases/03-polish-deploy/03-01-SUMMARY.md
+Stopped at: Completed quick-1-PLAN.md (v1 tech debt fixes)
+Resume file: .planning/quick/1-fix-v1-tech-debt-cnpj-formatting-duplica/1-SUMMARY.md
