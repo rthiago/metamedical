@@ -35,7 +35,7 @@ Visitors immediately understand what MetaMedical does and can find product infor
 
 ### Active
 
-- [ ] Public GitHub repository with full project history
+- [x] Private GitHub repository with full project history — v1.2 Phase 7
 - [ ] Site deployed and accessible via GitHub Pages
 - [ ] GitHub Actions workflow for automated deployment
 
@@ -55,6 +55,7 @@ Visitors immediately understand what MetaMedical does and can find product infor
 ## Context
 
 - Shipped v1.1 with 1,496 LOC (HTML + CSS + JS), 5 pages, fully responsive
+- Source code hosted at github.com/rthiago/metamedical (private, 71 commits)
 - Tech stack: Plain HTML, CSS, vanilla JavaScript, Google Fonts (CDN), Google Maps embed
 - Company is based in Osasco, SP, Brazil (CNPJ 21.033.671/0001-29)
 - Products are medical devices/supplies — professional, clinical positioning
@@ -90,6 +91,9 @@ Visitors immediately understand what MetaMedical does and can find product infor
 | Reveal-once scroll pattern | Elements unobserved after reveal, no re-trigger | ✓ Good — clean UX |
 | Hero CSS @keyframes over IntersectionObserver | Hero always visible, doesn't need scroll trigger | ✓ Good — immediate impact |
 | Overlay-section with CSS custom properties | Configurable gradient per section instance | ✓ Good — reusable pattern |
+| Private GitHub repository | No public exposure needed; can switch to public later | ✓ Good — privacy maintained |
+| Keep master branch name | Existing history uses master, no reason to rename | ✓ Good — no disruption |
+| Include .planning/ in repo | Planning docs are valuable project history | ✓ Good — full context preserved |
 
 ## Current Milestone: v1.2 GitHub Pages Deployment
 
@@ -102,4 +106,4 @@ Visitors immediately understand what MetaMedical does and can find product infor
 - Verify site is live and accessible
 
 ---
-*Last updated: 2026-02-19 after v1.2 milestone started*
+*Last updated: 2026-02-19 after Phase 7 (Repository Setup)*
