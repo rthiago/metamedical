@@ -35,7 +35,9 @@ Visitors immediately understand what MetaMedical does and can find product infor
 
 ### Active
 
-(None — define next milestone with `/gsd:new-milestone`)
+- [ ] Public GitHub repository with full project history
+- [ ] Site deployed and accessible via GitHub Pages
+- [ ] GitHub Actions workflow for automated deployment
 
 ### Out of Scope
 
@@ -89,5 +91,15 @@ Visitors immediately understand what MetaMedical does and can find product infor
 | Hero CSS @keyframes over IntersectionObserver | Hero always visible, doesn't need scroll trigger | ✓ Good — immediate impact |
 | Overlay-section with CSS custom properties | Configurable gradient per section instance | ✓ Good — reusable pattern |
 
+## Current Milestone: v1.2 GitHub Pages Deployment
+
+**Goal:** Make the site publicly accessible via GitHub Pages with automated deployment.
+
+**Target features:**
+- Create public GitHub repository "metamedical"
+- Push existing codebase with full git history
+- Configure GitHub Pages deployment via GitHub Actions
+- Verify site is live and accessible
+
 ---
-*Last updated: 2026-02-19 after v1.1 milestone*
+*Last updated: 2026-02-19 after v1.2 milestone started*

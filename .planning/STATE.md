@@ -5,14 +5,14 @@
 See: .planning/PROJECT.md (updated 2026-02-19)
 
 **Core value:** Visitors immediately understand what MetaMedical does and can find product information and contact details with zero friction.
-**Current focus:** Planning next milestone
+**Current focus:** v1.2 GitHub Pages Deployment
 
 ## Current Position
 
-Phase: — (between milestones)
+Phase: Not started (defining requirements)
 Plan: —
-Status: v1.1 shipped, awaiting next milestone
-Last activity: 2026-02-19 — v1.1 Visual Polish milestone archived
+Status: Defining requirements
+Last activity: 2026-02-19 — Milestone v1.2 started
 
 Progress: v1.0 (4 plans) + v1.1 (4 plans) = 8 plans shipped
 
