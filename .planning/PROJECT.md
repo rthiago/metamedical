@@ -36,8 +36,8 @@ Visitors immediately understand what MetaMedical does and can find product infor
 ### Active
 
 - [x] Private GitHub repository with full project history — v1.2 Phase 7
-- [ ] Site deployed and accessible via GitHub Pages
-- [ ] GitHub Actions workflow for automated deployment
+- [x] Site deployed and accessible via GitHub Pages — v1.2 Phase 8
+- [x] GitHub Actions workflow for automated deployment — v1.2 Phase 8
 
 ### Out of Scope
 
@@ -55,7 +55,8 @@ Visitors immediately understand what MetaMedical does and can find product infor
 ## Context
 
 - Shipped v1.1 with 1,496 LOC (HTML + CSS + JS), 5 pages, fully responsive
-- Source code hosted at github.com/rthiago/metamedical (private, 71 commits)
+- Source code hosted at github.com/rthiago/metamedical (public, 75+ commits)
+- Site live at https://rthiago.github.io/metamedical/ (GitHub Pages, auto-deployed)
 - Tech stack: Plain HTML, CSS, vanilla JavaScript, Google Fonts (CDN), Google Maps embed
 - Company is based in Osasco, SP, Brazil (CNPJ 21.033.671/0001-29)
 - Products are medical devices/supplies — professional, clinical positioning
@@ -94,16 +95,16 @@ Visitors immediately understand what MetaMedical does and can find product infor
 | Private GitHub repository | No public exposure needed; can switch to public later | ✓ Good — privacy maintained |
 | Keep master branch name | Existing history uses master, no reason to rename | ✓ Good — no disruption |
 | Include .planning/ in repo | Planning docs are valuable project history | ✓ Good — full context preserved |
+| Switch repo to public for Pages | GitHub Pages requires public on free plan | ✓ Good — content is public-facing anyway |
+| GitHub Actions deploy workflow | Official actions/deploy-pages pattern | ✓ Good — automated, zero-config |
 
-## Current Milestone: v1.2 GitHub Pages Deployment
+## Completed Milestones
 
-**Goal:** Make the site publicly accessible via GitHub Pages with automated deployment.
+- **v1.0 MVP** (Phases 1-3) — shipped 2026-02-19
+- **v1.1 Visual Polish** (Phases 4-6) — shipped 2026-02-19
+- **v1.2 GitHub Pages Deployment** (Phases 7-8) — shipped 2026-02-19
 
-**Target features:**
-- Create public GitHub repository "metamedical"
-- Push existing codebase with full git history
-- Configure GitHub Pages deployment via GitHub Actions
-- Verify site is live and accessible
+**Live site:** https://rthiago.github.io/metamedical/
 
 ---
-*Last updated: 2026-02-19 after Phase 7 (Repository Setup)*
+*Last updated: 2026-02-19 after v1.2 milestone complete*

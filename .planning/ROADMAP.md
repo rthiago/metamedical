@@ -4,7 +4,7 @@
 
 - ✅ **v1.0 MVP** — Phases 1-3 (shipped 2026-02-19)
 - ✅ **v1.1 Visual Polish** — Phases 4-6 (shipped 2026-02-19)
-- 🚧 **v1.2 GitHub Pages Deployment** — Phases 7-8 (in progress)
+- ✅ **v1.2 GitHub Pages Deployment** — Phases 7-8 (shipped 2026-02-19)
 
 ## Phases
 
@@ -26,7 +26,7 @@
 
 </details>
 
-### 🚧 v1.2 GitHub Pages Deployment (In Progress)
+### ✅ v1.2 GitHub Pages Deployment (SHIPPED 2026-02-19)
 
 **Milestone Goal:** Make the site publicly accessible via GitHub Pages with automated deployment.
 
