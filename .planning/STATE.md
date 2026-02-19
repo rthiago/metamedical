@@ -2,19 +2,19 @@
 
 ## Project Reference
 
-See: .planning/PROJECT.md (updated 2026-02-18)
+See: .planning/PROJECT.md (updated 2026-02-19)
 
 **Core value:** Visitors immediately understand what MetaMedical does and can find product information and contact details with zero friction.
-**Current focus:** v1.1 Visual Polish milestone COMPLETE
+**Current focus:** Planning next milestone
 
 ## Current Position
 
-Phase: 6 of 6 (Image Overlay Sections) -- COMPLETE
-Plan: 1 of 1 in current phase -- COMPLETE
-Status: Milestone complete
-Last activity: 2026-02-18 — Phase 6 Image Overlay Sections completed
+Phase: — (between milestones)
+Plan: —
+Status: v1.1 shipped, awaiting next milestone
+Last activity: 2026-02-19 — v1.1 Visual Polish milestone archived
 
-Progress: [█████████████████████] 100% (4/7 plans from v1.0, 4/4 v1.1)
+Progress: v1.0 (4 plans) + v1.1 (4 plans) = 8 plans shipped
 
 ## Performance Metrics
 
@@ -34,24 +34,12 @@ Progress: [█████████████████████] 100%
 | 05-scroll-reveal | 1 | 3min | 3min |
 | 06-image-overlay | 1 | 3min | 3min |
 
-*Updated after each plan completion*
-
 ## Accumulated Context
 
 ### Decisions
 
 Decisions are logged in PROJECT.md Key Decisions table.
-Recent decisions affecting current work:
-
-- [v1.1 setup]: Vanilla JS allowed for scroll animations (IntersectionObserver)
-- [v1.1 setup]: No animation libraries -- native APIs only
-- [v1.1 setup]: CSS scroll-driven animations rejected (Firefox lacks support)
-- [phase-5]: Progressive enhancement via .js-enabled class on html element
-- [phase-5]: Reveal-once pattern — elements unobserved after scroll reveal
-- [phase-5]: Hero uses CSS @keyframes, not IntersectionObserver
-- [phase-6]: Hero keeps own 3-stop gradient, not using .overlay-section class
-- [phase-6]: Overlay-section uses CSS custom properties for configurable gradients
-- [phase-6]: H2 accent bars overridden to white inside overlay sections
+Cleared for next milestone — see PROJECT.md for full history.
 
 ### Pending Todos
 
@@ -70,6 +58,6 @@ None.
 
 ## Session Continuity
 
-Last session: 2026-02-18
-Stopped at: Phase 6 complete, v1.1 milestone complete
+Last session: 2026-02-19
+Stopped at: v1.1 milestone archived
 Resume file: None
