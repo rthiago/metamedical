@@ -175,16 +175,19 @@ header {
 
 /* Logo */
 .logo {
-  font-family: var(--font-heading);
-  font-size: 1.5rem;
-  font-weight: 700;
-  color: var(--color-primary);
-  letter-spacing: -0.02em;
+  display: flex;
+  align-items: center;
   white-space: nowrap;
 }
 
+.logo img {
+  height: 40px;
+  width: auto;
+  display: block;
+}
+
 .logo:hover {
-  color: var(--color-primary-dark);
+  opacity: 0.8;
 }
 
 /* Desktop navigation */
