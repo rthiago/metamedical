@@ -43,7 +43,8 @@
   1. A private GitHub repository named "metamedical" exists under the user's account
   2. The repository contains the full codebase (all HTML, CSS, JS, and assets)
   3. Complete git commit history from v1.0 through v1.1 is preserved in the remote
-**Plans**: TBD
+**Plans**: 1 plan
+- [ ] 07-01-PLAN.md — Create GitHub repo and push codebase with full history
 
 ### Phase 8: GitHub Pages Deployment
 **Goal**: Site is automatically deployed and publicly accessible via GitHub Pages
@@ -67,5 +68,5 @@
 | 4. Typography & Spacing Foundation | v1.1 | 2/2 | Complete | 2026-02-18 |
 | 5. Scroll Reveal & Hero Animations | v1.1 | 1/1 | Complete | 2026-02-18 |
 | 6. Image Overlay Sections | v1.1 | 1/1 | Complete | 2026-02-18 |
-| 7. Repository Setup | v1.2 | 0/? | Not started | - |
+| 7. Repository Setup | v1.2 | 0/1 | Planned | - |
 | 8. GitHub Pages Deployment | v1.2 | 0/? | Not started | - |
