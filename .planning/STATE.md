@@ -10,18 +10,18 @@ See: .planning/PROJECT.md (updated 2026-02-18)
 ## Current Position
 
 Phase: 5 of 6 (Scroll Reveal & Hero Animations)
-Plan: 0 of ? in current phase
-Status: Ready to plan
-Last activity: 2026-02-18 — Phase 4 Typography & Spacing Foundation completed
+Plan: 1 of 1 in current phase
+Status: Executing — plan 05-01 complete, awaiting verification
+Last activity: 2026-02-18 — Phase 5 plan 01 executed
 
-Progress: [██████████████░░░░░░░] 67% (4/7 plans from v1.0, 2/? v1.1)
+Progress: [████████████████░░░░░] 78% (4/7 plans from v1.0, 3/4 v1.1)
 
 ## Performance Metrics
 
 **Velocity:**
-- Total plans completed: 6 (4 v1.0 + 2 v1.1)
-- Average duration: 2.3min
-- Total execution time: 14min
+- Total plans completed: 7 (4 v1.0 + 3 v1.1)
+- Average duration: 2.4min
+- Total execution time: 17min
 
 **By Phase:**
 
@@ -31,6 +31,7 @@ Progress: [██████████████░░░░░░░] 67% 
 | 02-content-pages | 2 | 4min | 2min |
 | 03-polish-deploy | 1 | 1min | 1min |
 | 04-typography-spacing | 2 | 4min | 2min |
+| 05-scroll-reveal | 1 | 3min | 3min |
 
 *Updated after each plan completion*
 
@@ -44,6 +45,9 @@ Recent decisions affecting current work:
 - [v1.1 setup]: Vanilla JS allowed for scroll animations (IntersectionObserver)
 - [v1.1 setup]: No animation libraries -- native APIs only
 - [v1.1 setup]: CSS scroll-driven animations rejected (Firefox lacks support)
+- [phase-5]: Progressive enhancement via .js-enabled class on html element
+- [phase-5]: Reveal-once pattern — elements unobserved after scroll reveal
+- [phase-5]: Hero uses CSS @keyframes, not IntersectionObserver
 
 ### Pending Todos
 
@@ -64,5 +68,5 @@ None.
 ## Session Continuity
 
 Last session: 2026-02-18
-Stopped at: Phase 4 complete, ready for Phase 5
+Stopped at: Phase 5 execution complete, awaiting verification
 Resume file: None
