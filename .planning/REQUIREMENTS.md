@@ -11,8 +11,8 @@ Requirements for GitHub Pages deployment. Each maps to roadmap phases.
 
 - [x] **DEPLOY-01**: Site source code is hosted in a private GitHub repository named "metamedical"
 - [x] **DEPLOY-02**: Repository contains full git commit history
-- [ ] **DEPLOY-03**: GitHub Actions workflow automatically deploys site on push to main
-- [ ] **DEPLOY-04**: Site is live and accessible via GitHub Pages URL
+- [x] **DEPLOY-03**: GitHub Actions workflow automatically deploys site on push to main
+- [x] **DEPLOY-04**: Site is live and accessible via GitHub Pages URL
 
 ## Future Requirements
 
@@ -37,8 +37,8 @@ Which phases cover which requirements. Updated during roadmap creation.
 |-------------|-------|--------|
 | DEPLOY-01 | Phase 7 | Complete |
 | DEPLOY-02 | Phase 7 | Complete |
-| DEPLOY-03 | Phase 8 | Pending |
-| DEPLOY-04 | Phase 8 | Pending |
+| DEPLOY-03 | Phase 8 | Complete |
+| DEPLOY-04 | Phase 8 | Complete |
 
 **Coverage:**
 - v1.2 requirements: 4 total
