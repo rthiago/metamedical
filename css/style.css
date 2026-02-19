@@ -304,7 +304,12 @@ nav ul li a[aria-current="page"] {
   content: '';
   position: absolute;
   inset: 0;
-  background: rgba(0, 0, 0, 0.55);
+  background: linear-gradient(
+    to bottom,
+    rgba(0, 86, 179, 0.7) 0%,
+    rgba(0, 40, 80, 0.8) 50%,
+    rgba(0, 0, 0, 0.85) 100%
+  );
   z-index: 1;
 }
 
@@ -327,6 +332,56 @@ nav ul li a[aria-current="page"] {
   font-size: var(--text-lg);
   margin-bottom: var(--space-lg);
   opacity: 0.9;
+}
+
+/* ==========================================================================
+   Overlay Sections (reusable full-width image + gradient pattern)
+   ========================================================================== */
+
+.overlay-section {
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: var(--color-white);
+  overflow: hidden;
+}
+
+.overlay-section::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    to bottom,
+    var(--overlay-from, rgba(0, 86, 179, 0.7)),
+    var(--overlay-to, rgba(0, 0, 0, 0.85))
+  );
+  z-index: 1;
+}
+
+.overlay-section > * {
+  position: relative;
+  z-index: 2;
+}
+
+.overlay-section h2 {
+  color: var(--color-white);
+}
+
+.overlay-section h2::before {
+  background-color: var(--color-white);
+}
+
+.overlay-section p {
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.overlay-section a {
+  color: var(--color-white);
+}
+
+.overlay-section .btn {
+  color: var(--color-white);
 }
 
 /* ==========================================================================
