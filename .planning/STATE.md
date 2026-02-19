@@ -5,23 +5,23 @@
 See: .planning/PROJECT.md (updated 2026-02-18)
 
 **Core value:** Visitors immediately understand what MetaMedical does and can find product information and contact details with zero friction.
-**Current focus:** Phase 6 - Image Overlay Sections
+**Current focus:** v1.1 Visual Polish milestone COMPLETE
 
 ## Current Position
 
-Phase: 6 of 6 (Image Overlay Sections)
-Plan: 0 of ? in current phase
-Status: Ready to plan
-Last activity: 2026-02-18 — Phase 5 Scroll Reveal & Hero Animations completed
+Phase: 6 of 6 (Image Overlay Sections) -- COMPLETE
+Plan: 1 of 1 in current phase -- COMPLETE
+Status: Milestone complete
+Last activity: 2026-02-18 — Phase 6 Image Overlay Sections completed
 
-Progress: [████████████████░░░░░] 78% (4/7 plans from v1.0, 3/4 v1.1)
+Progress: [█████████████████████] 100% (4/7 plans from v1.0, 4/4 v1.1)
 
 ## Performance Metrics
 
 **Velocity:**
-- Total plans completed: 7 (4 v1.0 + 3 v1.1)
-- Average duration: 2.4min
-- Total execution time: 17min
+- Total plans completed: 8 (4 v1.0 + 4 v1.1)
+- Average duration: 2.5min
+- Total execution time: 20min
 
 **By Phase:**
 
@@ -32,6 +32,7 @@ Progress: [████████████████░░░░░] 78% 
 | 03-polish-deploy | 1 | 1min | 1min |
 | 04-typography-spacing | 2 | 4min | 2min |
 | 05-scroll-reveal | 1 | 3min | 3min |
+| 06-image-overlay | 1 | 3min | 3min |
 
 *Updated after each plan completion*
 
@@ -48,6 +49,9 @@ Recent decisions affecting current work:
 - [phase-5]: Progressive enhancement via .js-enabled class on html element
 - [phase-5]: Reveal-once pattern — elements unobserved after scroll reveal
 - [phase-5]: Hero uses CSS @keyframes, not IntersectionObserver
+- [phase-6]: Hero keeps own 3-stop gradient, not using .overlay-section class
+- [phase-6]: Overlay-section uses CSS custom properties for configurable gradients
+- [phase-6]: H2 accent bars overridden to white inside overlay sections
 
 ### Pending Todos
 
@@ -55,8 +59,7 @@ None.
 
 ### Blockers/Concerns
 
-- [Research]: Overlay opacity needs testing with actual product images from metamedical.com.br
-- [Research]: Verify Montserrat 800 weight renders well on low-DPI screens
+None.
 
 ### Quick Tasks Completed
 
@@ -68,5 +71,5 @@ None.
 ## Session Continuity
 
 Last session: 2026-02-18
-Stopped at: Phase 5 complete, ready to plan Phase 6
+Stopped at: Phase 6 complete, v1.1 milestone complete
 Resume file: None

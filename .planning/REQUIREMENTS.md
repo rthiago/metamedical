@@ -16,8 +16,8 @@ Requirements for visual polish milestone. Each maps to roadmap phases.
 
 ### Hero & Overlays
 
-- [ ] **HERO-01**: Hero section uses brand-tinted gradient overlay (blue-to-dark) instead of flat black
-- [ ] **HERO-02**: Reusable overlay-section CSS pattern for full-width image sections with text
+- [x] **HERO-01**: Hero section uses brand-tinted gradient overlay (blue-to-dark) instead of flat black
+- [x] **HERO-02**: Reusable overlay-section CSS pattern for full-width image sections with text
 - [x] **HERO-03**: Hero text and CTA fade up on page load with staggered timing
 
 ### Scroll Animations
@@ -61,8 +61,8 @@ Requirements for visual polish milestone. Each maps to roadmap phases.
 | ANIM-02 | Phase 5 | Complete |
 | ANIM-03 | Phase 5 | Complete |
 | HERO-03 | Phase 5 | Complete |
-| HERO-01 | Phase 6 | Pending |
-| HERO-02 | Phase 6 | Pending |
+| HERO-01 | Phase 6 | Complete |
+| HERO-02 | Phase 6 | Complete |
 
 **Coverage:**
 - v1.1 requirements: 11 total

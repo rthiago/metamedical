@@ -22,7 +22,7 @@
 
 - [x] **Phase 4: Typography & Spacing Foundation** - Fluid sizing, generous spacing, card refinements, and unified transitions — completed 2026-02-18
 - [x] **Phase 5: Scroll Reveal & Hero Animations** - IntersectionObserver reveals, hero entrance, and accessibility fallbacks — completed 2026-02-18
-- [ ] **Phase 6: Image Overlay Sections** - Hero gradient upgrade and reusable overlay-section pattern
+- [x] **Phase 6: Image Overlay Sections** - Hero gradient upgrade and reusable overlay-section pattern -- completed 2026-02-18
 
 ## Phase Details
 
@@ -66,7 +66,7 @@ Plans:
 **Plans**: 1 plan
 
 Plans:
-- [ ] 06-01-PLAN.md — Hero gradient upgrade, reusable overlay-section pattern, Produtos CTA overlay
+- [x] 06-01-PLAN.md — Hero gradient upgrade, reusable overlay-section pattern, Produtos CTA overlay
 
 ## Progress
 
@@ -79,4 +79,4 @@ Plans:
 | 3. Polish & Deploy | v1.0 | 1/1 | Complete | 2026-02-18 |
 | 4. Typography & Spacing Foundation | v1.1 | 2/2 | Complete | 2026-02-18 |
 | 5. Scroll Reveal & Hero Animations | v1.1 | 1/1 | Complete | 2026-02-18 |
-| 6. Image Overlay Sections | v1.1 | 0/1 | Planned | - |
+| 6. Image Overlay Sections | v1.1 | 1/1 | Complete | 2026-02-18 |
