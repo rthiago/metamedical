@@ -18,13 +18,13 @@ Requirements for visual polish milestone. Each maps to roadmap phases.
 
 - [ ] **HERO-01**: Hero section uses brand-tinted gradient overlay (blue-to-dark) instead of flat black
 - [ ] **HERO-02**: Reusable overlay-section CSS pattern for full-width image sections with text
-- [ ] **HERO-03**: Hero text and CTA fade up on page load with staggered timing
+- [x] **HERO-03**: Hero text and CTA fade up on page load with staggered timing
 
 ### Scroll Animations
 
-- [ ] **ANIM-01**: Elements below the fold fade in when scrolled into view (IntersectionObserver)
-- [ ] **ANIM-02**: Animations respect `prefers-reduced-motion` OS setting (CSS + JS)
-- [ ] **ANIM-03**: No-JS fallback ensures all content visible without JavaScript
+- [x] **ANIM-01**: Elements below the fold fade in when scrolled into view (IntersectionObserver)
+- [x] **ANIM-02**: Animations respect `prefers-reduced-motion` OS setting (CSS + JS)
+- [x] **ANIM-03**: No-JS fallback ensures all content visible without JavaScript
 
 ### Hover & Transitions
 
@@ -57,10 +57,10 @@ Requirements for visual polish milestone. Each maps to roadmap phases.
 | TYPO-03 | Phase 4 | Complete |
 | TYPO-04 | Phase 4 | Complete |
 | HOVR-01 | Phase 4 | Complete |
-| ANIM-01 | Phase 5 | Pending |
-| ANIM-02 | Phase 5 | Pending |
-| ANIM-03 | Phase 5 | Pending |
-| HERO-03 | Phase 5 | Pending |
+| ANIM-01 | Phase 5 | Complete |
+| ANIM-02 | Phase 5 | Complete |
+| ANIM-03 | Phase 5 | Complete |
+| HERO-03 | Phase 5 | Complete |
 | HERO-01 | Phase 6 | Pending |
 | HERO-02 | Phase 6 | Pending |
 
@@ -71,4 +71,4 @@ Requirements for visual polish milestone. Each maps to roadmap phases.
 
 ---
 *Requirements defined: 2026-02-18*
-*Last updated: 2026-02-18 after Phase 4 completion*
+*Last updated: 2026-02-18 after Phase 5 completion*

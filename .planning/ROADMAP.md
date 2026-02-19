@@ -21,7 +21,7 @@
 **Milestone Goal:** Comprehensive visual refresh -- premium feel with bold typography, scroll animations, image overlays, and refined spacing.
 
 - [x] **Phase 4: Typography & Spacing Foundation** - Fluid sizing, generous spacing, card refinements, and unified transitions — completed 2026-02-18
-- [ ] **Phase 5: Scroll Reveal & Hero Animations** - IntersectionObserver reveals, hero entrance, and accessibility fallbacks
+- [x] **Phase 5: Scroll Reveal & Hero Animations** - IntersectionObserver reveals, hero entrance, and accessibility fallbacks — completed 2026-02-18
 - [ ] **Phase 6: Image Overlay Sections** - Hero gradient upgrade and reusable overlay-section pattern
 
 ## Phase Details
@@ -54,7 +54,7 @@ Plans:
 **Plans**: 1 plan
 
 Plans:
-- [ ] 05-01-PLAN.md — Scroll reveal animations, hero entrance, reduced-motion and no-JS fallbacks
+- [x] 05-01-PLAN.md — Scroll reveal animations, hero entrance, reduced-motion and no-JS fallbacks
 
 ### Phase 6: Image Overlay Sections
 **Goal**: Hero and feature sections use photographic backgrounds with branded overlays for visual depth
@@ -78,5 +78,5 @@ Plans:
 | 2. Content Pages | v1.0 | 2/2 | Complete | 2026-02-18 |
 | 3. Polish & Deploy | v1.0 | 1/1 | Complete | 2026-02-18 |
 | 4. Typography & Spacing Foundation | v1.1 | 2/2 | Complete | 2026-02-18 |
-| 5. Scroll Reveal & Hero Animations | v1.1 | 0/1 | Planned | - |
+| 5. Scroll Reveal & Hero Animations | v1.1 | 1/1 | Complete | 2026-02-18 |
 | 6. Image Overlay Sections | v1.1 | 0/? | Not started | - |
